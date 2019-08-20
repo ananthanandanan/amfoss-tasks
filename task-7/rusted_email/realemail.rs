@@ -22,9 +22,9 @@ fn main()
   	{
 
 
-    some(caps)> println!("valid"),
+    some(caps) => println!("valid"),
 
-    none => println!("invalid");
+    None => println!("invalid");
 
 
 
