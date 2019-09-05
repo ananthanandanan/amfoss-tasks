@@ -13,7 +13,9 @@ fn main(){
 
   io::stdin().read_line(&mut input);
 
-  assert!(Regex::new(r"\w[a-zA-Z0-9._+-]+@[a-zA-Z0-9._]+\.[a-zA-Z]").unwrap().is_match(&input));
+  let exp = Regex::new(r"\w[a-zA-Z0-9._+-]+@[a-zA-Z0-9._]+\.[a-zA-Z]").unwrap();
+
+  println!("email validity is? {}",exp.is_match(&mut input));
 
 
 }
