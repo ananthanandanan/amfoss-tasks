@@ -1,0 +1,226 @@
+*{ margin: 0;
+
+    padding: 0;
+
+    font-family: century gothic;
+
+
+
+
+     }
+
+      
+
+     body{
+
+     	margin: 0;
+     	padding: 0;
+
+     }
+
+     .container{
+
+     	width: 100%;
+     	height: 150vh;
+
+     	position: relative;
+
+   
+
+     	
+
+
+     }
+
+
+     .container .inner{
+
+     	width: 100%;
+
+     	
+
+     	position: absolute;
+
+     	background-color: #0009;
+
+
+     	top: 100%;
+     	
+     	
+     	
+     	border-bottom: 4px solid #fff;
+
+     	border-top: 4px solid #000;
+     	border-right: 4px solid #fff;
+
+     	border-left: 4px solid #fff;
+
+     }
+
+     .container .inner p{
+
+     	color: #fff;
+     	font-size: 25px;
+
+     	font-family: arial;
+     }
+
+     .container .inner h2{
+
+     	color: #fff;
+     	font-size: 30px;
+
+     }
+
+     
+     .container .inner h3{
+
+     	color: #fff;
+     	font-size: 30px;
+     	
+     }
+
+     .container .inner h4{
+
+     	color: #fff;
+     	font-size: 30px;
+     	
+     }
+
+
+     .container .inner h5{
+
+     	color: #fff;
+     	font-size: 30px;
+     }
+
+
+  
+
+
+
+     }
+
+
+
+      .container .inner ol{
+     	position: absolute;
+
+
+         
+         
+         margin-top: 25px;
+
+         margin-left: 10px;
+
+         color: #fff;
+
+         font-size: 20px;
+
+
+     }
+
+
+     
+
+
+
+     }
+
+
+
+  
+
+
+
+
+     
+
+
+     .logo img{
+
+
+     	float: left;
+
+     	width: 200px;
+
+     	height: auto;
+     }
+
+
+  
+
+.title{
+
+	position: absolute;
+
+	top: 45%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+
+
+
+}
+
+
+.title h1{
+
+	color: #000;
+	font-size: 70px;
+}
+
+header{
+
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images3.alphacoders.com/739/thumb-1920-739912.jpg);
+
+	height: 170vh;
+
+	background-size: cover;
+	background-position: center;
+
+    
+
+
+}
+
+.main{float: right;
+
+    list-style-type: none;
+    margin-top: 30px;
+
+
+
+
+}
+
+
+.main li{
+
+    display: inline-block;
+}
+
+
+.main li a{
+
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+
+    font-size: 15px;
+
+}
+
+.main li.active a{
+
+    border:1px solid white;
+}
+
+
+.main li a:hover
+{ border: 1px solid white  ;
+
+
+
+}
