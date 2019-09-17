@@ -58,7 +58,7 @@ function github(user){
 
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-          'Authorization': 'bearer  c0aaec888fe99ea0f0c4dcead2cf2dbb6a7ed97e'     //developerss token inserion here
+          'Authorization': 'bearer  ######################'     //developerss token inserion here
          },
 
          body: JSON.stringify({
