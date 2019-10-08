@@ -1,14 +1,14 @@
 
 
 
-#amFOSS-tasks
+# amFOSS-tasks
 
 - **These are the tasks completed in this repo**
 
 
 
-##Task-list
-- *The list is given below*
+## Task-list
+- **The list is given below**
 
 
 
