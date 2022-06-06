@@ -8,4 +8,4 @@ edition = "2018"
 
 [dependencies]
 
-regex = "0.2"
+regex = "1.5"
